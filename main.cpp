@@ -173,7 +173,7 @@ void fill_hash_to_file_map(std::wstring & filename, std::wstring & start_point_w
 
 int main(int argc, char * argv[]) {	
 	if (argc != 2) {
-		std::cout << "Use: SynchronizeData <config file>" << std::endl;
+		std::cout << "Use: SynchronizeFiles <config file>" << std::endl;
 		std::cout << "The config file must contain the following arguments, each per line, in the fixed order: " << std::endl;
 		std::cout << "main metadata file" << std::endl;
 		std::cout << "backup metadata file" << std::endl;
