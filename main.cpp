@@ -21,7 +21,7 @@ void PreparePossiblyDeletedFromMainFilesLog(std::ofstream & PossiblyDeletedFromM
 
 int main(int argc, char* argv[]) {
 	if (argc != 2) {
-		std::cout << "Use: GetFilesMetadata <config file>" << std::endl;
+		std::cout << "Use: SynchronizeFiles <config file>" << std::endl;
 		std::cout << "The config file must contain the following arguments, each per line, in the fixed order: " << std::endl;
 		std::cout << "main start point" << std::endl;
 		std::cout << "backup start point" << std::endl;
